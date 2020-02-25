@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.eyeball_game_android.MainActivity">
+    <item
+        android:id="@+id/action_load"
+        android:title="@string/action_load" />
+    <item
+        android:id="@+id/action_save"
+        android:title="@string/action_save" />
+    <item
+        android:id="@+id/action_restart"
+        android:title="@string/action_restart" />
+    <item
+        android:id="@+id/action_undo"
+        android:title="@string/action_undo" />
+    <item
+        android:id="@+id/action_sound"
+        android:title="@string/action_sound" />
+    <item
+        android:id="@+id/action_home"
+        android:title="@string/action_home" />
+    <item
+        android:id="@+id/action_goals"
+        android:checkable="false"
+        android:checked="false"
+        android:title="@string/action_goals"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_moves"
+        android:title="@string/action_moves"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_current"
+        android:title="@string/action_current"
+        app:showAsAction="ifRoom" />
+</menu>

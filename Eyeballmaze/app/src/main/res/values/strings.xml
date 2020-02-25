@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Eyeball-Game-Android</string>
+    <string name="action_load">Load Maze</string>
+    <string name="action_save">Save Maze</string>
+    <string name="action_restart">Restart Maze</string>
+    <string name="action_sound">Sound:on</string>
+    <string name="action_goals">Level 1,2,3</string>
+    <string name="action_moves">Moves:0</string>
+    <string name="action_undo">Undo Last Move</string>
+    <string name="action_current">Current Game: N/A</string>
+    <string name="Maze_1">1|5|0-2|0\n__22_\n31234334\n24121443\n22211224\n11422141\n_41__</string>
+    <string name="name_leroi">Eyeball Maze</string>
+    <string name="action_home">Return to the Home Screen</string>
+    <string name="readme">
+        The Rules from the original game:\n\n
+
+        Rules: That circle with the two little eyeballs is you. The eyeballs show which direction
+        you’re facing. What you have to do is make a series of moves that will get you onto the
+        square (or squares) marked GOAL. To indicate your move, click on the square you are moving
+        to.\n\n
+
+        You can move horizontally or vertically for any distance, as long as you do not move over
+        any blank spaces. However, you can only end your move on a square that has either the same
+        symbol or the same color as the square your move started on (moving to both the same symbol
+        and the same color is also okay). You can move straight ahead or to your right or left, but
+        you may not move to a square that is behind you. If you move to the right or left, your
+        eyeballs will then be pointing in a new direction.\n\n
+
+        Mazes with two or more goals are tricky. You must visit every goal to solve the maze; so
+        after you visit one goal, you will then want to move on to reach another goal. But when you
+        leave the goal you visited, something unusual happens: the square disappears and is replaced
+        with a blank. This complicates things because you’re not allowed to travel over blank
+        squares.\n\n
+
+        The go-back-one-move function takes you back a move, but you can click on it repeatedly to
+        go back several moves.</string>
+</resources>
